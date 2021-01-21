@@ -1,7 +1,7 @@
 # Two-factor-authentication-using-Twilio-Authy
 
 Setup:
-Install all modules in requirement.txt
+Install all modules in requirement.txt.
 Use "pip install -r requirements.txt" to install all.
 
 1. Create an account on Twilio.
