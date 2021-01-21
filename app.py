@@ -14,10 +14,10 @@ class User(db.Model):
     password=db.Column(db.String(30))
 
 db.create_all()
-authy_api = AuthyApiClient('ohUM3cvYfPVZOSuwNRDdwkUXUNIrRQhn')
+authy_api = AuthyApiClient('API Token')
 user = authy_api.users.create(
     email='ghmelkunde@gmail.com',
-    phone='9762968225',
+    phone='xxxxxxxxxx',
     country_code=+91)
 
 if user.ok():
